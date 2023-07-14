@@ -1,0 +1,159 @@
+
+
+.img-responsive {
+    width: 200;
+    height: 100;  
+  }
+  
+  
+  
+  .titulo{ 
+    color: blue;
+  }
+  
+  p { 
+    
+    color: black;
+  }
+  
+  section {
+    background-color: gray;
+    color: rgba(0, 0, 255, 0.692);
+  }
+  
+  form {
+    background-color: gray;
+    color: rgba(0, 0, 255, 0.692) ;
+  }
+  
+  .impact {
+    font-family: impact, sans-serif;
+  }
+
+  .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+   
+  }
+
+  .titulo .img-responsive{
+    width: 200;
+    height: auto;
+  }
+  .cuadrado {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    
+  }
+  .cuadrado .img-responsive {
+    width: auto;
+    height: auto;
+  }
+
+  .redes .img-responsive{
+    width: auto;
+    height: auto;
+  }
+
+  .redes .flex{
+    display: flex;
+    
+  }
+
+  .redes {
+    margin: 20px;
+    width: auto;
+    height: 50px;
+  }
+ 
+
+  .grid {
+    display: grid;
+    grid-template-columns: 20% auto 15% ;
+    grid-template-rows: 100px 1fr 1fr 75px;
+
+    grid-template-areas: 
+      "nav footer footer";
+
+      grid-column-gap: 10px;
+      grid-row-gap: 15px;
+
+      height: 100vh;
+      margin: 0;
+  }
+
+  .justify-items {
+    justify-content: end;
+  }
+
+  body {
+    background-color: rgba(206, 195, 195, 0.842);
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+   
+  .column-flex {
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    margin: 30px;
+    width: 400px;
+    height: 300px;
+    justify-content:space-between;
+    align-items: flex-start;
+    align-content: center;
+  }
+
+  .fotos-flex{
+    
+    margin: 20px;
+    width: 200px;
+    height: auto;
+  }
+
+  .fots-flex {
+   
+   margin: 20px;
+   width: 400apx; 
+   height: auto;
+  }
+
+  .fot-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  @media (min-width:992px) {
+    
+  } 
+  
+  .port-flex {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+  }
+
+  .texto2-flexborde {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+
+  }
+    
+  

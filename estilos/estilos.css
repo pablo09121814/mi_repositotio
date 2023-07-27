@@ -18,29 +18,7 @@ body {
     width: 100%;
     margin: 10px;
   }
-
   
-
-  .fotos-flex {
-   width: 295px;
-   height: auto;
-   position: relative;
-   margin: 15px;
-   left: 395px;
-   top: 81px;
-   border-radius: 10%;
-
-  }
-  .fotoss {
-    width: 300px;
-    height: auto;
-    position: absolute;
-    margin: 2px;
-    top: 398px;
-    left: 406px;
-    border-radius: 10%;
-  } 
-    
   .container-fluid {
     color: white;
   }
@@ -49,46 +27,6 @@ body {
     color: white;
   }
 
-  .fotos-bad {
-    height: auto;
-    width: 300px;
-    position: absolute;
-    margin: 5px;
-    top: 246px;
-    left: 89px;
-    border-radius: 10%;
-  }
-
-  .fotos-dady {
-    width: 300px;
-    height: auto;
-    position: absolute;
-    margin: 5px;
-    top: 256px;
-    left: 723px;
-    border-radius: 10%;
-
-  }
- 
-  .fto-bad {
-    height: 200px;
-    width: auto;
-    position: absolute;
-    margin: 5px;
-    top: 214px;
-    left: 1045px;
-    border-radius: 10%;
-  }
-
-  .foto-ozu {
-    height: auto;
-    width: auto;
-    margin: 5px;
-    position: absolute;
-    left: 1039px;
-    top: 425px;
-    border-radius: 10%;
-  }
 
   .navbar-toggler {
     border-color: black;
@@ -209,14 +147,20 @@ body {
   }
 
   .btn-primary {
-    background-color: #d403039c;
+    background-color: #d403039c !important;
+   
+  }
+
+  .btn-primary {
     color: white;
+    background-color: #d403039c;
     border-color: #d403039c;
   }
+
   .btn {
     display: inline-block;
     font-weight: 400;
-    color: #212529;
+    color: white;
     text-align: center;
     vertical-align: middle;
     user-select: none;
@@ -272,6 +216,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .logo-img {
+    width: 30px;
+  }
+
+  .list-group-item {
+    background-color: black;
+    color: white;
+    font-size: 20px;
   }
 
    

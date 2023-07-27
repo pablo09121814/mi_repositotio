@@ -1,0 +1,208 @@
+body {
+  background-color: $color-primario;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+
+.img-responsive {
+  width: $width-responsive;
+  height: $height-responsive;
+
+}
+
+.navbar-brand {
+  color:$color-secundario;
+  width: $witdh-nav;
+  margin: $margin-nav;
+}
+
+.container-fluid {
+  color: $color-secundario;
+}
+.collapse {
+  color: $color-secundario;
+}
+.navbar-toggler {
+  border-color: $color-primario;
+}
+.navbar-toggler-icon {
+border-bottom-color: $color-secundario;
+  
+}
+.nav-link {
+  color: $color-secundario;
+  font-family: $fuente-secundaria;
+
+}
+.body_style {
+  background-color: $color-primario;
+  color: $color-secundario;
+  font-family: $fuente-primaria;
+  font-size: $font-body;
+}
+.rhlm-3 {
+  padding-top: $margin!important;
+}
+.real1 {
+  display: $diplay-flex;
+  flex-wrap: $flex;
+  margin-right:$ancho;
+  margin-left: $ancho;
+}
+.text-left {
+  text-align: $align-text!important;
+} 
+.rhlm-5 {
+  margin-top: $padding-rg4l!important;
+}
+h1 {
+  font-family: $fuente-primaria;
+  font-size: $font-h1;
+}
+.cuerpo {
+  font-size: $font-cuerpo;
+  font-weight: $font-cuerpo2;
+}
+p {
+  margin-top: $margin-p;
+  margin-bottom: $margin;
+  display: $display-bl;
+  margin-block-start: $margin-icline;
+  margin-block-end: $margin-icline;
+  margin-inline-start: $margin-pp;
+  margin-inline-end: $margin-pp;
+}
+.img-fluid {
+  width: $witdh-img;
+  height: $height-responsive;
+  margin-top: $margin-img;
+  left: $left-img;
+
+}
+img {
+  vertical-align: $align-vertical;
+  border-style: $border-s;
+}
+.rg4ll {
+  padding: $padding-rg4l!important;
+}
+.text-center {
+  text-align: $text!important;
+}
+.footer_style {
+  background-color: $color-terciario;
+  color: $color-secundario;
+  font-size: $font-footer ;
+}
+.footer_style a {
+  margin: $footer-style;
+}
+a {
+  color: $color-terciario;
+  text-decoration: $border-s;
+  background-color: $color-back;
+}
+img {
+  overflow-clip-margin: $overflow;
+  overflow: $over;
+}
+.form-group {
+  margin-bottom: $margin;
+}
+label {
+  display: $display;
+  margin-bottom: $label-bottom;
+}
+label { 
+  cursor: $label;
+}
+.form-control {
+  display: $display-bl;
+  width: $witdh-nav;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: $padding-btn;
+  font-size: $margin;
+  font-weight: $font-btn;
+  line-height: $line-btn;
+  color: $color-form;
+  background-color: $color-secundario;
+  background-clip: $background-clip;
+  border: $border-btn $border-bt $color-border;
+  border-radius: $margin-top;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.btn-primary {
+  background-color: $color-terciario !important;
+ 
+}
+.btn-primary {
+  color: $color-secundario;
+  background-color: $color-terciario;
+border-color: $color-terciario;
+}
+.btn {
+  display: $display;
+  font-weight: $font-btn;
+  color: $color-secundario;
+  text-align: $text;
+  vertical-align: $align-vertical;
+  user-select: $border-s;
+  background-color: $color-back;
+  border: $border-btn $border-bt $color-back;
+  padding: $padding-btn;
+  font-size: $margin;
+  line-height: $line-btn;
+  border-radius: $margin-top;
+  transition: color .15s;
+}
+h2 {
+  font-family: $fuente-secundaria;
+  font-size: $font;
+}
+.rhlm-1 {
+  padding: $margin-top!important;
+}
+.carp-3 {
+  margin: $margin!important;
+}
+.carp-1 {
+  margin-top: $margin-top!important;
+}
+.anuel_flex {
+  width: $witdh-nav;
+  height: $height-anuel;
+  padding-top: $padding-anuel;
+  position: $psotion;
+}
+.p-2 {
+  padding: 0.5rem!important;
+}
+.anuel_flex iframe {
+  position: $position;
+  top: $top-anuel;
+  left: $left-anuel;
+  bottom: $bottom-anuel;
+  right: $right-anuel;
+  width: $witdh-nav;
+  height: $heigt-anuel;
+}
+body {
+  background-color: $color-primario;
+}
+.parallax {
+  background-image: url(../imagenes/Llnm.jpg);
+  height: $height-parallax;
+  background-attachment: $background-1;
+  background-position: $background-2;
+  background-repeat: $background-3;
+  background-size: $background-4;
+}
+.logo-img {
+  width: $witdh-logo;
+}
+.list-group-item {
+  background-color: $color-primario;
+  color: $color-secundario;
+  font-size: $font-1;
+}
